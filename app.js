@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 app.get("/", (req, res) => {
-  res.send("<h1>Home routes</h1>");
+  res.send("<h1>Home route</h1>");
 });
 
 app.listen(port, () => {
